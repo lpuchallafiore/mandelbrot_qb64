@@ -15,10 +15,6 @@ SCREEN Video&
 ' Loop over every pixel on the screen.
 FOR y = 0 TO 479
   FOR x = 0 TO 639
-    ' Classic XOR pattern for testing.
-    ' PSET(x, y), (x XOR y) MOD 256
-
-    ' Mandelbrot set.
     DIM c_x AS SINGLE, c_y AS SINGLE
     DIM C AS Complex, Z AS Complex, Z2 AS Complex
     DIM i AS INTEGER
